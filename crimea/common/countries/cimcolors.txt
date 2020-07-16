@@ -1,0 +1,81 @@
+
+WAS = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+BAL = {
+color = rgb { 100 15 191 }
+color_ui = rgb { 100 15 191 }
+}
+BLK = {
+color = rgb { 40 176 86 }
+color_ui = rgb { 40 176 86 }
+}
+WES = {
+color = rgb { 176 108 40 }
+color_ui = rgb { 176 108 40 }
+}
+WFR = {
+color = rgb { 7 35 228 }
+color_ui = rgb { 7 35 228 }
+}
+TRA = {
+color = rgb { 255 28 33 }
+color_ui = rgb { 255 28 33 }
+}
+CYP = {
+color = rgb { 244 249 60 }
+color_ui = rgb { 244 249 60 }
+}
+PER = {
+color = rgb { 10 224 26 }
+color_ui = rgb { 10 224 26 }
+}
+EGY = {
+color = rgb { 247 251 64 }
+color_ui = rgb { 247 251 64 }
+}
+TRC = {
+color = rgb { 228 22 28 }
+color_ui = rgb { 228 22 28 }
+}
+GRE = {
+color = rgb { 27 186 166 }
+color_ui = rgb { 27 186 166 }
+}
+AUS = {
+color = rgb { 255 255 255 }
+color_ui = rgb { 255 255 255 }
+}
+POL = {
+color = rgb { 234 134 91 }
+color_ui = rgb { 234 134 91 }
+}
+GER = {
+color = rgb { 142 151 140 }
+color_ui = rgb { 142 151 140 }
+}
+SPA = {
+color = rgb { 255 255 0 }
+color_ui = rgb { 255 255 0 }
+}
+ROM = {
+color = rgb { 225 0 0 }
+color_ui = rgb { 225 0 0 }
+}
+TUR = {
+color = rgb { 219 21 27 }
+color_ui = rgb { 219 21 27 }
+}
+IRQ = {
+color = rgb { 10 207 79 }
+color_ui = rgb { 10 207 79 }
+}
+UKR = {
+color = rgb { 214 203 10 }
+color_ui = rgb { 214 203 10 }
+}
+RUS = {
+color = rgb { 6 12 217 }
+color_ui = rgb { 6 12 217 }
+}
