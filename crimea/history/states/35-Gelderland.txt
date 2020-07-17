@@ -3,8 +3,8 @@ state={
 	name="STATE_35"
 
 	history={
-		owner = WAS
-		add_core_of = HOL
+		owner = WFR
+		add_core_of = WFR
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5

@@ -3,8 +3,8 @@ state={
 	name="STATE_36"
 
 	history={
-		owner = WAS
-		add_core_of = HOL
+		owner = WFR
+		add_core_of = WFR
 		victory_points = {
 			6241 5 
 		}

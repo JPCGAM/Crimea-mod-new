@@ -2,12 +2,9 @@
 state={
 	id=31
 	name="STATE_31"
-	manpower = 1825000
-	
-	state_category = city
 
 	history={
-		owner = WAS
+		owner = WFR
 		victory_points = {
 			6766 5 
 		}
@@ -19,10 +16,14 @@ state={
 
 		}
 		add_core_of = OCC
-		add_core_of = FRA
+		add_core_of = WFR
+
 	}
 
 	provinces={
-		929 943 3740 3749 3915 3946 3948 6759 6766 6915 6917 6931 9853 9882 9884 11697 11699 11702 12169 
+		929 3740 3749 6759 9882 9884 11697 11699 11702 12169 
 	}
+	manpower=1825000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

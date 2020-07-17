@@ -11,7 +11,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = WAS
+		owner = RME
 		victory_points = {
 			9914 5
 		}
@@ -28,12 +28,12 @@ state={
 			}
 		}
 		add_core_of = ALB
-		add_claim_by = ITA
+		add_claim_by = RME
 
 		1939.4.12 = {
-			owner = ITA
-			controller = ITA
-			remove_claim_by = ITA
+			owner = RME
+			controller = RME
+			remove_claim_by = RME
 		}
 	}
 
