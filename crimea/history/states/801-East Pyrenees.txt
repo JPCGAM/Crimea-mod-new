@@ -1,0 +1,15 @@
+state={
+	id=801
+	name="STATE_801"
+	history={
+		owner = RME
+		add_core_of = RME
+
+	}
+	provinces={
+		943 3915 3946 3948 6766 6915 6917 6931 9853 
+	}
+	manpower=50000
+	state_category=city
+	buildings_max_level_factor=1.000
+}
