@@ -62,10 +62,10 @@ set_technology = {
 set_convoys = 10
 
 set_popularities = {
-        democratic = 40
-        communism = 15
+        democratic = 45
+        communism = 20
         fascism = 0
-        neutrality = 30
+        neutrality = 35
 
 }
 

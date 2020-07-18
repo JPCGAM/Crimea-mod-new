@@ -1,6 +1,6 @@
 ﻿capital = 1
 
-oob = "IRQ_1936"
+oob = "IRA_1936"
 
 # Starting tech
 set_technology = {
@@ -24,7 +24,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "IRQ_1939"
+	oob = "IRA_1939"
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons1 = 1
@@ -62,10 +62,10 @@ set_technology = {
 set_convoys = 10
 
 set_popularities = {
-        democratic = 5
-        communism = 2
-        fascism = 2
-        neutrality = 10
+        democratic = 25
+        communism = 23
+        fascism = 22
+        neutrality = 30
 
 }
 
