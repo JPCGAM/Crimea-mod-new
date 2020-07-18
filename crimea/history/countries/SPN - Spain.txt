@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 41
 
 oob = "SPN_1936"
 
