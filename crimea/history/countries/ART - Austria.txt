@@ -1,79 +1,125 @@
-﻿capital = 1
-
-oob = "ART_1936"
-
-# Starting tech
+﻿capital = 152
+set_research_slots = 3
+set_stability = 40
+set_war_support = 55
+#Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
 }
 
+#For start date 1939.1.1
 1939.1.1 = {
+	add_political_power = 500
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "ART_1939"
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
 	set_technology = {
-		interwar_artillery = 1
-		infantry_weapons1 = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
 	}
+	#set_convoys = 100
 }
 
-set_convoys = 10
-
-set_popularities = {
-        democratic = 50
-        communism = 20
-        fascism = 10
-        neutrality = 100
-
-}
-
+#Politics for 1936.1.1
 set_politics = {
-	
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+set_popularities = {
+	democratic = 12
+	fascism = 15
+	communism = 10
+	neutrality = 63
+}
 
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 12
+		fascism = 15
+		communism = 10
+		neutrality = 63
+	}
+}
+
+#Create country leader - Otto von Habsburg
+create_country_leader = {
+	name = "Otto von Habsburg"
+	picture = "Portrait_otto_von_hapsburg.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = { }
+}
+
+#Create country leader - Elfriede Raubal von Adolf
+create_country_leader = {
+	name = "Elfriede Raubal von Adolf"
+	picture = "portrait_vladimir_cukavac.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = { }
+}
+
+#Create country leader - Sebastian Kurz
+create_country_leader = {
+	name = "Sebastian Kurz"
+	picture = "Portrait_romania_ioan_mihail_racovita.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
+
+#Create country leader - Karl Donitz
+create_country_leader = {
+	name = "Karl Donitz"
+	picture = "portrait_lat_karlis_ulmanis.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = { }
+}
+
+#Create military leader - Anton Leeb
+create_corps_commander = {
+	name = "Anton Leeb"
+	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	traits = { infantry_officer offensive_doctrine fast_planner aggressive_assaulter }
+	skill = 5
+	attack_skill = 7
+	defence_skill = 5
+	planning_skill = 4
+	logistics_skill = 8
+	id = 1533351465010873
+}
+
+#Create military leader - Erwin Fussenegger 
+create_corps_commander = {
+	name = "Erwin Fussenegger "
+	picture = "portrait_south_america_generic_land_6.dds"
+	traits = { old_guard brilliant_strategist inflexible_strategist war_hero }
+	skill = 6
+	attack_skill = 7
+	defence_skill = 7
+	planning_skill = 2
+	logistics_skill = 1
+	id = 1533351465010874
+}
+
+#Create military leader - Otto von Habsburg
+create_field_marshal = {
+	name = "Otto von Habsburg"
+	picture = "Portrait_otto_von_hapsburg.dds"
+	traits = { politically_connected war_hero trait_reckless infantry_officer offensive_doctrine thorough_planner aggressive_assaulter unyielding_defender }
+	skill = 11
+	attack_skill = 11
+	defence_skill = 11
+	planning_skill = 11
+	logistics_skill = 11
+	id = 1533351465010875
+}
