@@ -92,10 +92,10 @@ create_corps_commander = {
 	traits = { infantry_officer offensive_doctrine fast_planner aggressive_assaulter }
 	skill = 5
 	attack_skill = 7
-	defence_skill = 5
+	defense_skill = 5
 	planning_skill = 4
 	logistics_skill = 8
-	id = 1533351465010873
+	id = 10000000
 }
 
 #Create military leader - Erwin Fussenegger 
@@ -105,10 +105,10 @@ create_corps_commander = {
 	traits = { old_guard brilliant_strategist inflexible_strategist war_hero }
 	skill = 6
 	attack_skill = 7
-	defence_skill = 7
+	defense_skill = 7
 	planning_skill = 2
 	logistics_skill = 1
-	id = 1533351465010874
+	id = 10000001
 }
 
 #Create military leader - Otto von Habsburg
@@ -116,10 +116,10 @@ create_field_marshal = {
 	name = "Otto von Habsburg"
 	picture = "Portrait_otto_von_hapsburg.dds"
 	traits = { politically_connected war_hero trait_reckless infantry_officer offensive_doctrine thorough_planner aggressive_assaulter unyielding_defender }
-	skill = 11
-	attack_skill = 11
-	defence_skill = 11
-	planning_skill = 11
-	logistics_skill = 11
-	id = 1533351465010875
+	skill = 9
+	attack_skill = 9
+	defense_skill = 9
+	planning_skill = 9
+	logistics_skill = 9
+	id = 10000002
 }
