@@ -1,0 +1,114 @@
+﻿division_template = {
+	name = "Costal Defence Police"
+
+	division_names_group = SOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Pekhotnaya diviziya"
+
+	division_names_group = SOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 3686
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 6704
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}	
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 9677
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 9680
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 9718
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 3722
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 11649
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 705
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Crimean Costal Defence Police"
+		location = 705
+		division_template = "Costal Defence Police"
+		start_experience_factor = 0.95
+	}
+	division = {
+		name = "Pekhotnaya diviziya No.1"
+		location = 6724
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 1
+	}
+	division = {
+		name = "Pekhotnaya diviziya No.2"
+		location = 6724
+		division_template = "Pekhotnaya diviziya"
+		start_experience_factor = 1
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CRI"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

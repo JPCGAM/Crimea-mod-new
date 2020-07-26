@@ -2,11 +2,20 @@
 
 oob = "CRI_1936"
 
+set_research_slots = 3
+set_stability = 85
+set_war_support = 60
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	early_fighter = 1
+	interwar_artillery = 1
+	support_weapons = 1
+	fighter1 = 1
+	CAS1 =  1
+	gwtank =1
 }
 
 1939.1.1 = {
@@ -76,4 +85,55 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+#Create country leader 
+create_country_leader = {
+	name = "Alexander Fedorovich Kabanov"
+	picture = "alexander_fedorovich.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = { }
+}
+create_field_marshal = {
+	name = "Semyon Budyonny"
+	picture = "semyon_budyonny.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+	id = 11000000
+}
+create_corps_commander = {
+	name = "Anatoly Gribkov"
+	picture = "anatoly_gribkov.dds"
+	traits = {  }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 2
+	id = 11000001
+}
+create_corps_commander = {
+	name = "Kuzma Nikitovich"
+	picture = "kuzma_nikitovich.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
+	id = 11000002
+}
+create_corps_commander = {
+	name = "Vladimir Govorov"
+	picture = "vladimir_govorov.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	id = 11000003
+}
