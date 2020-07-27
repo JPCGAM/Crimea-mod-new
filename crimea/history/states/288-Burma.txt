@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		add_core_of = BRM
-		owner = WAS
+		###add_core_of = BRM
+		###owner = WAS
 		victory_points = {
 			1330 5 
 		}
