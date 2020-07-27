@@ -13,11 +13,11 @@ state={
 	}
 
 	history={
-		owner = WAS
+		###owner = WAS
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = USA
+		###add_core_of = USA
 	}
 
 	provinces={
