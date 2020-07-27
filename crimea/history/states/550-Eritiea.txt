@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = WAS
-		add_core_of = ERI
+		###owner = WAS
+		###add_core_of = ERI
 		victory_points = {
 			12766 1
 		}
