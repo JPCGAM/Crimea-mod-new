@@ -6,7 +6,6 @@ tags={
 	"National Focuses"
 }
 name="Crimea"
-replace_path="history/countries"
 replace_path="history/units"
 replace_path="common/countries"
 replace_path="common/decisions"
