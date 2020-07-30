@@ -1,11 +1,9 @@
-
 state={
-	id=233
-	name="STATE_233"
-	resources={
-		chromium=35.000
+	id=803
+	name="STATE_803"
+	provinces={
+		3698 6721 9663 9674 11647 
 	}
-
 	history={
 		owner = TRC
 		buildings = {
@@ -21,11 +19,6 @@ state={
 		}
 
 	}
-
-	provinces={
-		666 670 685 1455 3667 6674 6692 9628 9632 9647 9649 11609 11614 11664 
-	}
-	manpower=1463970
+	manpower=235400
 	buildings_max_level_factor=1.000
-	state_category=rural
 }
