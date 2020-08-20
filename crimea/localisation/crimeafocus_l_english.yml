@@ -1,0 +1,63 @@
+﻿l_english:
+ election_campain: "Start the election campain"
+ election_campain_desc: "It is time for the elections, we need to support a leader, depending on what leader we go for the situation in our country will change."
+ crimean_independence: "Stay independent"
+ crimean_independence_desc: "The best way is obviously independence, we are already a small nation, by subminting to bigger nations it would mean that they might puppet or even annex us."
+ russian_movement: "Side with Russia"
+ russian_movement_desc: "Russia is basically our brothers, and so is Ukraine, but Russia is much stronger and is clearly the better choice."
+ ukraine_movement: "Side with Ukraine"
+ ukraine_movement_desc: "Ukraine are our brothers and they are the only country that is connected to us so it makes sence we stick with them as they could just cut all the trade to us by land."
+ greece_movement: "Side  with Greece"
+ greece_movement_desc: "We have a long way back with the greek people and are one of the first people to set up cities here about 2500 years ago, by alling with them we will be restoring old roots."
+ turkey_movement: "Side with Turkey"
+ turkey_movement_desc: "Before the russian empire conquered us we were part of the ottoman empire as a puppet, so we could go back to that, expet being a puppet part."
+ 
+ #Crimea path
+ 
+ improve_economy: "Improve the economy"
+ improve_economy_desc: "To stand a chance in the world we need a supperiour economy so we can build stuff faster such as more civilian factories or in chance it is needed more military factory."
+ arm_people: "Arm the people"
+ arm_people_desc: "We can have a good economy, we could build things fast, we might have maximum infrastructere, but none of those will save us if we habe a bad army and military. Thus we need to finish arming the people to improve our military."
+ extra_neutral: "Become more non-aligned"
+ extra_neutral_desc: "To resist other ideologies spreding we shall spread non aligned to out people."
+ 
+ #Russia Path
+ 
+ russian_alliance: "Join an alliance with Russia"
+ russian_alliance_desc: "Now that we are in a good relation with Russia we should join them and be sure that they will support us."
+ russian_armaments: "Ask Russia for military support"
+ russian_armaments_desc: "Now that we are allied with Russia they will sure accept to help us expand our military power so we can be a worthy ally, but they might want something back if we are not in good relations with them."
+ communist_support: "Expand the communist support"
+ communist_support_desc: "We belive that the russian are very supportive of communism, so we should follow their lead wchich will help to mantain a healthy relation."
+ 
+ #Ukraine Path
+ 
+ ukraine_alliance: "Join an alliance with Ukraine"
+ ukraine_alliance_desc: "We are doing good in the way of being in good relations with Ukraine we should ally them before they thing of anything else."
+ ukrainian_land: "Gain Ukrainian land"
+ ukrainian_land_desc: "Ukraine has decided to give us land north of us so we dont backstab them."
+ democratic_support: "The democrats increase support"
+ democratic_support_desc: "With our good relations with Ukraine the democratic support has increased as Ukraine is also democratic."
+ 
+ #Greece Path
+ 
+ relations_greece: "Improve relations with Greece"
+ relations_greece_desc: "We need to get on the good side of the Greeks if we want them to be in good terms with us."
+ romania_greece_land: "Get land in thr Romania regions"
+ romania_greece_land_desc: "Thanks to Greece and their support we can get land that is owned by the balkan union and make it our land."
+ greeck_neutrality_facist: "Greek political influence."
+ greeck_neutrality_facist_desc: "As people travel to our friend Greece some get part of their ideology, we dont know exactly what path they are going but what we do know is that it will either be facist or non aligne."
+ 
+ #Turkey Path
+ 
+ turkish_relations: "The relations increase"
+ turkish_relations_desc: "We have sent a diplomat to Turkey to be in a good relationship with them. This will ensure peace with them."
+ caucasus_land: "Get land in the Caucasus"
+ caucasus_land_desc: "With Trukey in our side they can help us to get land in other places easier thanks to their power."
+ facist_influence: "Facist influence in our country."
+ facist_influence_desc: "With our recent friendship with Turkey our political system has been influence a bit by their ideology."
+ 
+ #The elections
+ 
+ crimean_elections: "The Elections"
+ crimean_elections_desc: "It is now time for the elections of our country to happen, this will greatly decide what our political and new history will look like."
