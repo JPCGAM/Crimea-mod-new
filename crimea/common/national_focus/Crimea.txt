@@ -1,0 +1,572 @@
+focus_tree = {
+	id = crimea_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CRI
+		}
+	}
+	#Election campain
+	focus = {
+		id = CRI_election_campain
+		#icon = GFX_goal_olourul_workers
+		text = election_campain
+		x = 6
+		y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = CRI_independent
+		#icon = GFX_goal_olourul_workers
+		text = crimean_independence
+		relative_position_id = CRI_election_campain
+		prerequisite = { focus = CRI_election_campain }
+		mutually_exclusive = { focus = CRI_russia }
+		mutually_exclusive = { focus = CRI_ukraine }
+		mutually_exclusive = { focus = CRI_greece }
+		mutually_exclusive = { focus = CRI_turkey }
+		x = -4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = CRI_russia
+		#icon = GFX_goal_olourul_workers
+		text = russian_movement
+		relative_position_id = CRI_election_campain
+		prerequisite = { focus = CRI_election_campain }
+		mutually_exclusive = { focus = CRI_independent }
+		mutually_exclusive = { focus = CRI_ukraine }
+		mutually_exclusive = { focus = CRI_greece }
+		mutually_exclusive = { focus = CRI_turkey}
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = RUS modifier = medium_increase }
+		}
+	}
+	focus = {
+		id = CRI_ukraine
+		#icon = GFX_goal_olourul_workers
+		text = ukraine_movement
+		relative_position_id = CRI_election_campain
+		prerequisite = { focus = CRI_election_campain }
+		mutually_exclusive = { focus = CRI_russia }
+		mutually_exclusive = { focus = CRI_independent }
+		mutually_exclusive = { focus = CRI_greece }
+		mutually_exclusive = { focus = CRI_turkey}
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = UKE modifier = medium_increase }
+		}
+	}
+	focus = {
+		id = CRI_greece
+		#icon = GFX_goal_olourul_workers
+		text = greece_movement
+		relative_position_id = CRI_election_campain
+		prerequisite = { focus = CRI_election_campain }
+		mutually_exclusive = { focus = CRI_russia }
+		mutually_exclusive = { focus = CRI_ukraine }
+		mutually_exclusive = { focus = CRI_independent }
+		mutually_exclusive = { focus = CRI_turkey}
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = GRC modifier = small_increase }
+		}
+	}
+	focus = {
+		id = CRI_turkey
+		#icon = GFX_goal_olourul_workers
+		text = turkey_movement
+		relative_position_id = CRI_election_campain
+		prerequisite = { focus = CRI_election_campain }
+		mutually_exclusive = { focus = CRI_russia }
+		mutually_exclusive = { focus = CRI_ukraine }
+		mutually_exclusive = { focus = CRI_greece }
+		mutually_exclusive = { focus = CRI_independent}
+		x = 4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = TRK modifier = small_increase }
+		}
+	}
+	#independent path
+	focus = {
+		id = CRI_economy_plus
+		#icon = GFX_goal_olourul_workers
+		text = improve_economy
+		relative_position_id = CRI_independent
+		prerequisite = { focus = CRI_independent }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			797 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = CRI_arm_people
+		#icon = GFX_goal_olourul_workers
+		text = arm_people
+		relative_position_id = CRI_economy_plus
+		prerequisite = { focus = CRI_economy_plus }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			798 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+        }
+	}
+	focus = {
+		id = CRI_neutral_plus
+		#icon = GFX_goal_olourul_workers
+		text = extra_neutral
+		relative_position_id = CRI_arm_people
+		prerequisite = { focus = CRI_arm_people }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_global_flag = independent
+			add_popularity = { ideology = neutrality popularity = 0.3 }
+		}
+	}
+	#russia path
+	focus = {
+		id = CRI_russian_alliance
+		#icon = GFX_goal_olourul_workers
+		text = russian_alliance
+		relative_position_id = CRI_russia
+		prerequisite = { focus = CRI_russia }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			RUS = {
+				create_faction = "Russian Defence Alliance"
+				add_to_faction = CRI
+			}
+		}
+	}
+	focus = {
+		id = CRI_arms
+		#icon = GFX_goal_olourul_workers
+		text = russian_armaments
+		relative_position_id = CRI_russian_alliance
+		prerequisite = { focus = CRI_russian_alliance }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			798 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			if = {
+				limit ={
+					NOT = {CRI = { has_opinion = { target = RUS value > 35 } }}
+				}
+				RUS = {puppet = CRI}
+			}
+		}
+	}
+	focus = {
+		id = CRI_commy
+		#icon = GFX_goal_olourul_workers
+		text = communist_support
+		relative_position_id = CRI_arms
+		prerequisite = { focus = CRI_arms }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_global_flag = russia_sup
+			add_popularity = { ideology = communism popularity = 0.15 }
+		}
+	}
+	#ukraine path
+	focus = {
+		id = CRI_ukraine_alliance
+		#icon = GFX_goal_olourul_workers
+		text = ukraine_alliance
+		relative_position_id = CRI_ukraine
+		prerequisite = { focus = CRI_ukraine }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			UKE = {
+				create_faction = "Ukranian Defence Alliance"
+				add_to_faction = CRI
+			}
+		}
+	}
+	focus = {
+		id = CRI_ukraine_land
+		#icon = GFX_goal_olourul_workers
+		text = ukrainian_land
+		relative_position_id = CRI_ukraine_alliance
+		prerequisite = { focus = CRI_ukraine_alliance }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_core= 200
+			transfer_state = 200
+			add_state_core= 196
+			transfer_state = 196
+			if = {
+				limit ={
+					NOT = {CRI = { has_opinion = { target = UKE value > 35 } }}
+				}
+				UKE = {puppet = CRI}
+			}
+		}
+	}
+	focus = {
+		id = CRI_democrat
+		#icon = GFX_goal_olourul_workers
+		text = democratic_support
+		relative_position_id = CRI_ukraine_land
+		prerequisite = { focus = CRI_ukraine_land }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		set_global_flag = ukraine_sup
+			add_popularity = { ideology = democratic popularity = 0.15 }
+		}
+	}
+	#greece path
+	focus = {
+		id = CRI_greece_relation
+		#icon = GFX_goal_olourul_workers
+		text = relations_greece
+		relative_position_id = CRI_greece
+		prerequisite = { focus = CRI_greece }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = GRC modifier = medium_increase }
+		}
+	}
+	focus = {
+		id = CRI_greece_romania
+		#icon = GFX_goal_olourul_workers
+		text = romania_greece_land
+		relative_position_id = CRI_greece_relation
+		prerequisite = { focus = CRI_greece_relation }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_core= 77
+			transfer_state = 77
+			add_state_core= 766
+			transfer_state = 766
+			add_state_core= 804
+			transfer_state = 804
+			if = {
+				limit ={
+					NOT = {CRI = { has_opinion = { target = GRC value > 35 } }}
+				}
+				GRC = {puppet = CRI}
+			}
+		}
+	}
+	focus = {
+		id = CRI_neu_fac
+		#icon = GFX_goal_olourul_workers
+		text = greeck_neutrality_facist
+		relative_position_id = CRI_greece_romania
+		prerequisite = { focus = CRI_greece_romania }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_global_flag = greece_sup
+			add_popularity = { ideology = neutrality popularity = 0.2 }
+			add_popularity = { ideology = fascism popularity = 0.15 }
+		}
+	}
+	#turkey path
+	focus = {
+		id = CRI_turkey_relation
+		#icon = GFX_goal_olourul_workers
+		text = turkish_relations
+		relative_position_id = CRI_turkey
+		prerequisite = { focus = CRI_turkey }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { target = TRK modifier = medium_increase }
+		}
+	}
+	focus = {
+		id = CRI_caucasus
+		#icon = GFX_goal_olourul_workers
+		text = caucasus_land
+		relative_position_id = CRI_turkey_relation
+		prerequisite = { focus = CRI_turkey_relation }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_core= 803
+			transfer_state = 803
+			add_state_core= 805
+			transfer_state = 805
+			if = {
+				limit ={
+					NOT = {CRI = { has_opinion = { target = TRK value > 35 } }}
+				}
+				TRK = {puppet = CRI}
+			}
+		}
+	}
+	focus = {
+		id = CRI_faccist_40
+		#icon = GFX_goal_olourul_workers
+		text = facist_influence
+		relative_position_id = CRI_caucasus
+		prerequisite = { focus = CRI_caucasus }
+		x = 0
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_global_flag = turkey_sup
+			add_popularity = { ideology = fascism popularity = 0.4 }
+		}
+	}
+	#election event
+	focus = {
+		id = CRI_elections
+		#icon = GFX_goal_olourul_workers
+		text = crimean_elections
+		relative_position_id = CRI_democrat
+		prerequisite = { focus =  CRI_faccist_40 focus = CRI_neu_fac focus = CRI_democrat focus = CRI_commy focus = CRI_neutral_plus }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_global_flag	= independent
+				}
+				country_event = { days = 1 id = crimea.1 }
+			}
+			if = {
+				limit = {
+					has_global_flag	= russia_sup
+				}
+				country_event = { days = 1 id = crimea.2 }
+			}
+			if = {
+				limit = {
+					has_global_flag	= ukraine_sup
+				}
+				country_event = { days = 1 id = crimea.3 }
+			}
+			if = {
+				limit = {
+					has_global_flag	= greece_sup
+				}
+				country_event = { days = 1 id = crimea.4 }
+			}
+			if = {
+				limit = {
+					has_global_flag	= turkey_sup
+				}
+				country_event = { days = 1 id = crimea.5 }
+			}
+		}
+	}
+}
