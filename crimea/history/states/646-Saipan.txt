@@ -3,21 +3,21 @@ state=
 	id=646
 	name="STATE_646"
 	state_category = small_island
-	manpower=21657
+	#manpower=21657
 	history=
 	{
-		###owner = WAS
+		owner = WAS
 		###add_core_of = JAP
 		###add_core_of = GUM
-		buildings = {
+		buildings  = {
 			infrastructure = 3
-			air_base = 3
+			#air_base = 3
 			3995 = {
-				naval_base = 1
+				#naval_base = 1
 
 			}
 			13023 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}	
 		victory_points = {

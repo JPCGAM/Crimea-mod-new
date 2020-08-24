@@ -7,10 +7,10 @@ state={
 
 	history={
 		owner = WAS
-		add_core_of = CHI
-		add_core_of = TIB
-		add_core_of = PRC
-		buildings = {
+		###add_core_of = CHI
+		###add_core_of = TIB
+		###add_core_of = PRC
+		buildings  = {
 			infrastructure = 1
 
 		}
@@ -18,7 +18,7 @@ state={
 			10856 1
 		}
 		1939.1.1 = {
-			buildings = {
+			buildings  = {
 				infrastructure = 2
 
 			}
@@ -30,7 +30,7 @@ state={
 	provinces={
 		4407 5018 5080 5102 8041 8059 10741 10856 
 	}
-	manpower=368200
+	#manpower=368200
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

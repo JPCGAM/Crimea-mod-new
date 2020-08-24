@@ -2,7 +2,7 @@ state=
 {
 	id=650
 	name="STATE_650"
-	manpower=20
+	#manpower=20
 	state_category = tiny_island
 	
 	history=
@@ -11,10 +11,10 @@ state=
 		victory_points = {
 			13067 1 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 1
 			13067 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 	}

@@ -2,23 +2,23 @@
 state={
 	id=659
 	name="STATE_659"
-	manpower = 891505
+	#manpower = 891505
 
 	state_category = pastoral
 
 	history={
-		###owner = WAS
+		owner = WAS
 		victory_points = {
 			5074 1 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
-			air_base = 4
+			#air_base = 4
 			5074 = {
-				naval_base = 3
+				#naval_base = 3
 			}
 			8000 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		###add_core_of = YEM

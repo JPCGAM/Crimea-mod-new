@@ -9,7 +9,7 @@ state={
 	state_category = small_island
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = TAH
 		victory_points = {
 			4268 1
@@ -17,18 +17,18 @@ state={
 		victory_points = {
 			12120 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 			4268 = {
-				naval_base = 1
+				#naval_base = 1
 
 			}
 			1237 = {
-				naval_base = 1
+				#naval_base = 1
 
 			}
 			4247 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 
@@ -37,6 +37,6 @@ state={
 	provinces={
 		1237 1263 4231 4247 4268 7264 10160 12120 12132 
 	}
-	manpower=51876
+	#manpower=51876
 	buildings_max_level_factor=1.000
 }

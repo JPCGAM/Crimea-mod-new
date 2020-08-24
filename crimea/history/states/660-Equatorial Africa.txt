@@ -2,19 +2,19 @@
 state={
 	id=660
 	name="STATE_660"
-	manpower = 1136921
+	#manpower = 1136921
 	
 	state_category = pastoral
 	resources={
 		rubber=3 # was: 4
 	}
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = CAR
 		victory_points = {
 			12830 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 2
 		}
 

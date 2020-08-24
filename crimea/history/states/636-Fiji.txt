@@ -2,17 +2,17 @@
 state={
 	id=636
 	name="STATE_636"
-	manpower = 180000
+	#manpower = 180000
 	
 	state_category = small_island
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = FIJ
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 			4286 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		
