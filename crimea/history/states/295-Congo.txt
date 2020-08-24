@@ -2,7 +2,7 @@
 state={
 	id=295
 	name="STATE_295" # Leopoldville
-	manpower = 3540948
+	#manpower = 3540948
 	
 	state_category = rural
 	
@@ -11,12 +11,12 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			industrial_complex = 1
+			#industrial_complex = 1
 			10968 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		victory_points = {

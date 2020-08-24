@@ -1,7 +1,7 @@
 state= {
 	id=334
 	name="STATE_334"
-	manpower = 2168600
+	#manpower = 2168600
 	resources={
 		rubber=75 # was: 138
 		oil=5 # was: 10
@@ -10,22 +10,22 @@ state= {
 	state_category = rural
 
 	history= {
-		###owner = WAS
+		owner = WAS
 		###add_core_of = INS
 		victory_points = {
 			10237 1 
 		}
 
-		buildings = {
+		buildings  = {
 			infrastructure = 2
 			10237 = {
-				naval_base = 3
+				#naval_base = 3
 			}
 			1316 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 			10325 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 	}

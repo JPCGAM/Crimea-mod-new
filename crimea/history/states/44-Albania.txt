@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			11767 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2 
@@ -29,12 +29,6 @@ state={
 		}
 		add_core_of = RME
 		add_claim_by = RME
-
-		1939.4.12 = {
-			owner = RME
-			controller = RME
-			remove_claim_by = RME
-		}
 	}
 
 	provinces={

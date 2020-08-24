@@ -2,19 +2,19 @@ state=
 {
 	id=100
 	name="STATE_100"
-	manpower = 115870
+	#manpower = 115870
 	
 	state_category = rural
 	
 	
 	history=
 	{
-		###owner = WAS
+		owner = WAS
 		victory_points = { 12674 1 }
-		buildings = {
+		buildings  = {
 			infrastructure = 2
 			12674 ={
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		###add_core_of = DEN

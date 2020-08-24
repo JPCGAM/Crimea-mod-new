@@ -2,20 +2,20 @@
 state={
 	id=362
 	name="STATE_362"
-	manpower = 4151054
+	#manpower = 4151054
 	
 	state_category = large_city
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 6
-			industrial_complex = 3
+			#industrial_complex = 3
 			dockyard = 4
-			air_base = 10
+			#air_base = 10
 			fuel_silo = 1
 			788 = {
-				naval_base = 10
+				#naval_base = 10
 
 			}
 		}
@@ -27,8 +27,8 @@ state={
 			10412 15
 		}
 		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
+			buildings  = {
+				#industrial_complex = 4
 				dockyard = 5
 			}
 		}

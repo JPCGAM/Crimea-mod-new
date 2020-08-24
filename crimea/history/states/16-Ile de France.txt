@@ -2,7 +2,7 @@
 state={
 	id=16
 	name="STATE_16"
-	manpower = 7038500
+	#manpower = 7038500
 	
 	state_category = metropolis
 	
@@ -12,7 +12,7 @@ state={
 		victory_points = {
 			11506 50 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 4
@@ -20,12 +20,6 @@ state={
 			air_base = 5
 		}
 		add_core_of = WFR
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 6
-			}
-		}
 	}
 
 	provinces={

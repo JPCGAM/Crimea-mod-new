@@ -2,7 +2,7 @@ state=
 {
 	id=333
 	name="STATE_333"
-	manpower = 889800
+	#manpower = 889800
 	resources={
 		rubber=40 # was: 72
 		oil=12 # was: 18
@@ -12,20 +12,20 @@ state=
 
 	history=
 	{
-		###owner = WAS
+		owner = WAS
 		victory_points = {
 			7371 1
 		}
 		victory_points = {
 			1208 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 			1208 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 			7371 = {
-				naval_base = 2
+				#naval_base = 2
 			}
 		}
 		###add_core_of = MAL

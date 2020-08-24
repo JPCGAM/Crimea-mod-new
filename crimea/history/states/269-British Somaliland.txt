@@ -2,7 +2,7 @@ state=
 {
 	id=269
 	name="STATE_269"
-	manpower = 344700
+	#manpower = 344700
 	
 	state_category = enclave
 	
@@ -13,12 +13,12 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		###owner = WAS
+		owner = WAS
 		###add_core_of = SOM
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 			10833 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 state={
 	id=267
 	name="STATE_267" # Kabul
-	manpower = 4637140
+	#manpower = 4637140
 	
 	state_category = town
 	
@@ -10,11 +10,11 @@ state={
 		tungsten=3 # was: 3
 	}
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2  
+			#arms_factory = 1
+			#industrial_complex = 2  
 		}
 		victory_points = {
 			10737 5 

@@ -2,18 +2,18 @@
 state={
 	id=365
 	name="STATE_365"
-	manpower = 2908504
+	#manpower = 2908504
 	
 	state_category = city
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 6
-			industrial_complex = 3
-			air_base = 2
+			#industrial_complex = 3
+			#air_base = 2
 			11975 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		###add_core_of = USA
@@ -22,8 +22,8 @@ state={
 		}
 
 		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
+			buildings  = {
+				#industrial_complex = 4
 			}
 		}
 

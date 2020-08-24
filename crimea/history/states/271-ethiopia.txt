@@ -2,7 +2,7 @@ state=
 {
 	id=271
 	name="STATE_271"
-	manpower = 10000000
+	#manpower = 10000000
 	resources={
 		rubber=2 # was: 2
 	}
@@ -11,12 +11,12 @@ state=
 
 	history=
 	{
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
-			air_base = 1
+			#arms_factory = 2
+			#industrial_complex = 2
+			#air_base = 1
 		}
 		victory_points = { 
 			5010 5 

@@ -2,19 +2,19 @@ state=
 {
 	id=116
 	name="STATE_116"
-	manpower = 241621
+	#manpower = 241621
 	state_category = small_island
 	history= {
-		###owner = WAS
+		owner = WAS
 		###add_core_of = MLT
 		victory_points = {
 			12003 5 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
-			air_base = 3
+			#air_base = 3
 			12003 = {
-				naval_base = 3
+				#naval_base = 3
 				coastal_bunker = 1
 			}
 		}
