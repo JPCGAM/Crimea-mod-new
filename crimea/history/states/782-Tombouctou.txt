@@ -2,15 +2,15 @@
 state={
 	id=782
 	name="STATE_782" # Tombouctou
-	manpower = 79243
+	#manpower = 79243
 	
 	state_category = wasteland
 	impassable = yes
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = MLI
-		buildings = {
+		buildings  = {
 			infrastructure = 0
 		}
 

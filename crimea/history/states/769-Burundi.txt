@@ -5,12 +5,12 @@ state={
 	state_category = pastoral
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = BRD
 		victory_points = {
 			2220 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 2
 
 		}
@@ -19,6 +19,6 @@ state={
 	provinces={
 		2220
 	}
-	manpower=2145731
+	#manpower=2145731
 	buildings_max_level_factor=1.000
 }

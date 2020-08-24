@@ -6,9 +6,9 @@ state={
 	impassable = yes
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = CHA
-		buildings = {
+		buildings  = {
 			infrastructure = 0
 		}
 	}
@@ -16,6 +16,6 @@ state={
 	provinces={
 		4902 5136 10893
 	}
-	manpower=18744
+	#manpower=18744
 	buildings_max_level_factor=1.000
 }

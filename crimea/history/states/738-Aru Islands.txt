@@ -3,13 +3,13 @@ state={
 	name="STATE_738"
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = INS
-		buildings = {
+		buildings  = {
 			infrastructure = 1
 
 			4579 = {
-				naval_base = 1
+				#naval_base = 1
 
 			}
 
@@ -21,7 +21,7 @@ state={
 	provinces={
 		4579 
 	}
-	manpower=36146
+	#manpower=36146
 	buildings_max_level_factor=1	
 	state_category="small_island"
 }

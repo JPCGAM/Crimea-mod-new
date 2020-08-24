@@ -2,17 +2,17 @@
 state={
 	id=781
 	name="STATE_781" # Niger
-	manpower = 543817
+	#manpower = 543817
 	
 	state_category = pastoral
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = NGR
 		victory_points = {
 			2056 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 		}
 	}

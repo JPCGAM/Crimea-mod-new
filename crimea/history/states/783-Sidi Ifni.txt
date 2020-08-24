@@ -2,7 +2,7 @@
 state={
 	id=783
 	name="STATE_783" # Sidi Ifni
-	manpower = 11043
+	#manpower = 11043
 	
 	state_category = pastoral
 
@@ -11,12 +11,12 @@ state={
 			12857 1
 		}
 
-		###owner = WAS
+		owner = WAS
 		###add_core_of = MOR
-		buildings = {
+		buildings  = {
 			infrastructure = 1
 			12857 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 	}
