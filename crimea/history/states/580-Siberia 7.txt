@@ -2,13 +2,13 @@
 state={
 	id=580
 	name="STATE_580" # Tobolsk
-	manpower = 88126
+	#manpower = 88126
 	
 	state_category = wasteland
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 1
 
 		}

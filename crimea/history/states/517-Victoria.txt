@@ -3,7 +3,7 @@ state={
 	id=517
 	name="STATE_517"
 	
-	manpower = 2219500
+	#manpower = 2219500
 	
 	state_category = large_city
 	
@@ -13,18 +13,18 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 5
-			air_base = 3
+			#arms_factory = 2
+			#industrial_complex = 5
+			#air_base = 3
 			7798 = {
-				naval_base = 4
+				#naval_base = 4
 				coastal_bunker = 1
 			}
 			12910 = {
-				naval_base = 2
+				#naval_base = 2
 			}
 		}
 		victory_points = {

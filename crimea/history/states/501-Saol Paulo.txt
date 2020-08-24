@@ -2,18 +2,18 @@
 state={
 	id=501
 	name="STATE_501"
-	manpower = 6199200
+	#manpower = 6199200
 	state_category = city
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = BRA
-		buildings = {
-			arms_factory = 1
-			industrial_complex = 3
+		buildings  = {
+			#arms_factory = 1
+			#industrial_complex = 3
 			infrastructure = 5
 			5112 = {
-				naval_base = 4
+				#naval_base = 4
 			}
 		}		
 		victory_points = {

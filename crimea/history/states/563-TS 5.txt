@@ -2,7 +2,7 @@
 state={
 	id=563
 	name="STATE_563" # Chita
-	manpower = 1044310
+	#manpower = 1044310
 	state_category = rural
 	resources={
 		steel=9 # was: 12
@@ -10,10 +10,10 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			air_base = 2
+			#air_base = 2
 		}
 		###add_core_of = SOV
 	}

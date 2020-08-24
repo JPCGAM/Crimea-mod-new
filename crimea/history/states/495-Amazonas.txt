@@ -2,7 +2,7 @@
 state={
 	id=495
 	name="STATE_495"
-	manpower = 979900
+	#manpower = 979900
 	
 	state_category = pastoral
 	
@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 0
 
 		}

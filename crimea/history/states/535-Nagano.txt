@@ -2,7 +2,7 @@
 state={
 	id=535
 	name="STATE_535" # Koshinetsu
-	manpower = 3871000
+	#manpower = 3871000
 	state_category = large_city
 	
 	resources={
@@ -11,12 +11,12 @@ state={
 	}
 
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = JAP
-		buildings = {
+		buildings  = {
 		
-			arms_factory = 1
-			industrial_complex = 2
+			#arms_factory = 1
+			#industrial_complex = 2
 			infrastructure = 3
 			dockyard = 1
 			fuel_silo = 1

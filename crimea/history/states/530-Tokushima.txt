@@ -2,18 +2,18 @@ state=
 {
 	id=530
 	name="STATE_530" # Shikoku
-	manpower = 3310000
+	#manpower = 3310000
 	state_category = large_city
 	history=
 	{
-		###owner = WAS
+		owner = WAS
 		###add_core_of = JAP
-		buildings = {
+		buildings  = {
 			infrastructure = 3
-			air_base = 3
+			#air_base = 3
 			
-			arms_factory = 1
-			industrial_complex = 2
+			#arms_factory = 1
+			#industrial_complex = 2
 
 		}
 		
