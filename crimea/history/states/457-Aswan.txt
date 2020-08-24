@@ -2,13 +2,13 @@ state=
 {
 	id=457
 	name="STATE_457" # Arabian Desert
-	manpower = 2194
+	#manpower = 2194
 	
 	state_category = wasteland
 	
 	history = {
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 1
 		}
 

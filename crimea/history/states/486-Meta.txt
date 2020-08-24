@@ -2,13 +2,13 @@
 state={
 	id=486
 	name="STATE_486"
-	manpower = 213160
+	#manpower = 213160
 	
 	state_category = pastoral
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 1
 		}
 		###add_core_of = COL

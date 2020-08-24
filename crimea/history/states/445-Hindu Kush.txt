@@ -2,7 +2,7 @@
 state={
 	id=445
 	name="STATE_445" # Quetta
-	manpower = 405100
+	#manpower = 405100
 	
 	state_category = wasteland
 
@@ -10,10 +10,10 @@ state={
 		victory_points = {
 			5105 1
 		}
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			air_base = 4
+			#air_base = 4
 		}
 		###add_core_of = PAK
 	}

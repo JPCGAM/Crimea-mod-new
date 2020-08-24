@@ -2,21 +2,21 @@
 state={
 	id=370
 	name="STATE_370"
-	manpower = 2009820
+	#manpower = 2009820
 	
 	state_category = city
 
 	history={
-		###owner = WAS
+		owner = WAS
 		victory_points = {
 			4464 1 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 4
-			industrial_complex = 1
-			air_base = 3
+			#industrial_complex = 1
+			#air_base = 3
 			4464 = {
-				naval_base = 4
+				#naval_base = 4
 			}
 		}
 		###add_core_of = USA

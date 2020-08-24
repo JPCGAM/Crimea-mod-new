@@ -2,7 +2,7 @@
 state={
 	id=478
 	name="STATE_478" # Jalisco
-	manpower = 2470875
+	#manpower = 2470875
 	
 	state_category = town
 	
@@ -11,10 +11,10 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			industrial_complex = 1
+			#industrial_complex = 1
 		}
 		###add_core_of = MEX
 		victory_points = {

@@ -2,16 +2,16 @@
 state={
 	id=403
 	name="STATE_403" # Tyumen
-	manpower = 939067
+	#manpower = 939067
 	
 	state_category = rural
 
 	history={
-		###owner = WAS
+		owner = WAS
 		victory_points = {
 			4824 1
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
 		}
 		###add_core_of = SOV

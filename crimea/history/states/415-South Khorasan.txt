@@ -2,13 +2,13 @@
 state={
 	id=415
 	name="STATE_415" # Herat
-	manpower = 1632860
+	#manpower = 1632860
 	
 	state_category = rural
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 2
 		}
 		victory_points = {

@@ -2,15 +2,15 @@
 state={
 	id=388
 	name="STATE_388"
-	manpower = 537605
+	#manpower = 537605
 	state_category = rural
 	resources={
 		tungsten=11 # was: 16
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 4
 		}
 		###add_core_of = USA

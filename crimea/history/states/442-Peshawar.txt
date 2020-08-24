@@ -2,7 +2,7 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 4684400
+	#manpower = 4684400
 	
 	state_category = rural
 
@@ -10,10 +10,10 @@ state={
 		victory_points = {
 			12763 3
 		}
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 3
-			air_base = 3
+			#air_base = 3
 		}
 		###add_core_of = PAK
 	}

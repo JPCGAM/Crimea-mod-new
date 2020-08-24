@@ -2,7 +2,7 @@
 state={
 	id=378
 	name="STATE_378"
-	manpower = 5677248
+	#manpower = 5677248
 	
 	state_category = metropolis
 	
@@ -12,24 +12,24 @@ state={
 	}
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 6
+			#arms_factory = 2
+			#industrial_complex = 6
 			dockyard = 2
-			air_base = 10
+			#air_base = 10
 			1562 = {
-				naval_base = 10
+				#naval_base = 10
 			}
 			9671 = {
-				naval_base = 4
+				#naval_base = 4
 			}
 			9814 = {
-				naval_base = 5
+				#naval_base = 5
 			}
 			610 = {
-				naval_base = 1
+				#naval_base = 1
 			}
 		}
 		###add_core_of = USA
@@ -46,8 +46,8 @@ state={
 			9713 1 
 		}
 		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
+			buildings  = {
+				#industrial_complex = 7
 			}
 		}
 	}

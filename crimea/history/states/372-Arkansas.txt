@@ -2,7 +2,7 @@
 state={
 	id=372
 	name="STATE_372"
-	manpower = 1854481
+	#manpower = 1854481
 	
 	state_category = town
 	
@@ -12,10 +12,10 @@ state={
 
 
 	history={
-		###owner = WAS
-		buildings = {
+		owner = WAS
+		buildings  = {
 			infrastructure = 4
-			industrial_complex = 2
+			#industrial_complex = 2
 		}
 		###add_core_of = USA
 		victory_points = {

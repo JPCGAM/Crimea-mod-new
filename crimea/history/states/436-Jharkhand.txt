@@ -2,7 +2,7 @@
 state={
 	id=436
 	name="STATE_436" # Jabalpur
-	manpower = 14123100
+	#manpower = 14123100
 	
 	state_category = rural
 	
@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = WAS
-		buildings = {
+		buildings  = {
 			infrastructure = 4
 		}
 

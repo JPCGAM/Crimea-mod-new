@@ -6,22 +6,22 @@ state={
 		chromium=12.000 #added due to portugal setup
 	}
 
-	manpower = 3197719
+	#manpower = 3197719
 	
 	state_category = rural
 	
 	history={
-		###owner = WAS
+		owner = WAS
 		###add_core_of = MOR
 		victory_points = {
 			7069 10 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 3
-			industrial_complex = 1
-			air_base = 4
+			#industrial_complex = 1
+			#air_base = 4
 			7069 = {
-				naval_base = 4
+				#naval_base = 4
 			}
 		}
 	}

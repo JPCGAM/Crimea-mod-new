@@ -2,20 +2,20 @@
 state={
 	id=443
 	name="STATE_443" # Sind
-	manpower = 3887000
+	#manpower = 3887000
 	
 	state_category = rural
 
 	history={
-		###owner = WAS
+		owner = WAS
 		victory_points = {
 			3456 3 
 		}
-		buildings = {
+		buildings  = {
 			infrastructure = 5
-			industrial_complex = 1
+			#industrial_complex = 1
 			3456 = {
-				naval_base = 4
+				#naval_base = 4
 			}
 		}
 		###add_core_of = PAK
