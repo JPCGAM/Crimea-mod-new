@@ -87,3 +87,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+
+#Create country leader 
+create_country_leader = {
+	name = "No One"
+	picture = "no_one.dds"
+	expire = "2000.1.1"
+	ideology = centrism
+	traits = { }
+}
