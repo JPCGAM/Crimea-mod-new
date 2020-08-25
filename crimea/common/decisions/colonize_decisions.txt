@@ -1,0 +1,121 @@
+COLONIZE_decisions = {
+
+	colonize_states_1 = {
+
+		name = colonize_states.t
+
+		icon = generic_nationalism
+
+		allowed = { 
+		}
+
+		available = {
+			any_state = {
+				FROM = {
+					any_neighbor_state = {
+							is_core_of = ROOT
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		#target_array = controlled_states
+
+		target_trigger = {
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+		days_remove = 63
+
+		modifier = {
+		}
+
+		visible = {
+			FROM = {
+				owner = {tag= WAS}
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+			FROM = {
+				ROOT = {transfer_state = PREV}
+			}
+		}
+	}
+	
+	#########################################################################
+	
+	colonize_states_2 = {
+
+		name = colonize_states_2.t
+
+		icon = generic_nationalism
+
+		allowed = {
+		}
+
+		available = {
+				FROM = {
+					any_neighbor_state = {
+							is_core_of = ROOT
+					}
+				}
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+
+		state_target = yes
+
+		on_map_mode = map_only
+
+		target_array = controlled_states
+
+		target_trigger = {
+		}
+
+		cost = 30
+
+		fire_only_once = yes
+
+		days_remove = 27
+
+		modifier = {
+		}
+
+		visible = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+		}
+	}
+}
