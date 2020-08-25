@@ -1,0 +1,17 @@
+ideas = {
+
+	country = {
+		waste = {
+
+			#picture = 
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			
+			modifier = {
+				enemy_justify_war_goal_time	= 1000.0
+			}
+		}
+	}
+}

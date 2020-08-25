@@ -1,0 +1,29 @@
+focus_tree = {
+	id = crimea_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WAS
+		}
+	}
+	focus = {
+		id = WAS_only
+		#icon = GFX_goal_olourul_workers
+		text = waste_focus
+		x = 6
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = { days = 1 id = waste.1 }
+		}
+	}
+}
