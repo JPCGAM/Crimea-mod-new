@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		waste = {
+		waste_idea = {
 
 			#picture = 
 			allowed = {
