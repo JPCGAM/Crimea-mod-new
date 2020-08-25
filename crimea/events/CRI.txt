@@ -1,0 +1,130 @@
+add_namespace = crimea
+
+###election chain###
+#idependent
+country_event = {
+	id = crimea.1
+	title = crimea.1.t
+	desc = crimea.1.d
+	#picture = GFX_event_luna
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OLO
+	}
+		
+	option = {
+		name = crimea.1.a
+		ai_chance = { factor = 100}
+	}
+}
+#russia
+country_event = {
+	id = crimea.2
+	title = crimea.2.t
+	desc = crimea.2.d
+	#picture = GFX_event_luna
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OLO
+	}
+		
+	option = {
+		name = crimea.2.a
+		ai_chance = { factor = 100}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Alexander Fedorovich Kabanov"
+			picture = "alexander_fedorovich.dds"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = { }
+		}
+	}
+}
+#ukriane
+country_event = {
+	id = crimea.3
+	title = crimea.3.t
+	desc = crimea.3.d
+	#picture = GFX_event_luna
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OLO
+	}
+		
+	option = {
+		name = crimea.3.a
+		ai_chance = { factor = 100}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Alexander Fedorovich Kabanov"
+			picture = "alexander_fedorovich.dds"
+			expire = "1965.1.1"
+			ideology = centrism
+			traits = { }
+		}
+	}
+}
+#greece
+country_event = {
+	id = crimea.4
+	title = crimea.4.t
+	desc = crimea.4.d
+	#picture = GFX_event_luna
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OLO
+	}
+		
+	option = {
+		name = crimea.4.a
+		ai_chance = { factor = 100}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Alexander Fedorovich Kabanov"
+			picture = "alexander_fedorovich.dds"
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = { }
+		}
+	}
+}
+#turkey
+country_event = {
+	id = crimea.5
+	title = crimea.5.t
+	desc = crimea.5.d
+	#picture = GFX_event_luna
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = OLO
+	}
+		
+	option = {
+		name = crimea.5.a
+		ai_chance = { factor = 100}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Alexander Fedorovich Kabanov"
+			picture = "alexander_fedorovich.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = { }
+		}
+	}
+}
